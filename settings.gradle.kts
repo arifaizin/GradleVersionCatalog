@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "EmptyComposeActivityElectricEel"
-include ':app'
+include(":app")
