@@ -1,6 +1,6 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
+    id(Plugins.androidApplication)
+    id(Plugins.jetbrainsKotlinAndroid)
 }
 
 android {
@@ -47,9 +47,9 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.7.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
-    implementation("androidx.activity:activity-compose:1.3.1")
+    implementation(Libraries.coreKtx)
+    implementation(Libraries.lifecycRuntimeKtx)
+    implementation(Libraries.activityCompose)
     implementation("androidx.compose.ui:ui:1.2.0")
     implementation("androidx.compose.ui:ui-tooling-preview:1.2.0")
     implementation("androidx.compose.material:material:1.2.0")
