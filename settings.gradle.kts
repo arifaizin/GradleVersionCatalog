@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "EmptyComposeActivityElectricEel"
+rootProject.name = "Gradle Version Catalog"
 include(":app")
