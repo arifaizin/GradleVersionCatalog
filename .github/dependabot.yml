@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      time: "13:30"
+      timezone: "Asia/Jakarta"
+    rebase-strategy: "disabled"
+    open-pull-requests-limit: 10
+    groups:
+      kotlin-compose:
+        patterns:
+          - "org.jetbrains.kotlin.android*"
+          - "androidx.compose.compiler*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    rebase-strategy: "disabled"
